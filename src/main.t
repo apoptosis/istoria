@@ -3,7 +3,7 @@
 #include <en_us.h>
 
 versionInfo: GameID {
-    name = 'Istori'
+    name = 'Istoria'
     byline = 'Apoptosis'
     version = '0.0'
     desc = 'A collaborative hodge-podge of IF hackery.'
