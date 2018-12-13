@@ -20,13 +20,12 @@ with import <nixpkgs> {};
     pname = "t3ketch";
     version = "master";
     propagatedBuildInputs = with python2Packages; [ lxml jinja2  ];
-    src = /home/ldlework/src/t3sketch;
-    # src = fetchFromGitHub {
-      #   owner = "dustinlacewell";
-      #   repo = "t3sketch";
-      #   rev = "04e314cf2f6707b33d6d3fc32d3e4d3587584113";
-      #   sha256 = "191336bjm938zqy84v24rpwa2kj4xrykfzyw9b13fx1h2pxqip7l";
-      # };
+    src = fetchFromGitHub {
+      owner = "dustinlacewell";
+      repo = "t3sketch";
+      rev = "2116be5564713f4dbf290054e9ebfba3a591a54e";
+      sha256 = "1w24z10incipz4j9yxn900g46m584np675cfvswgacniyh1ww2bs";
+    };
   };
 }
 
