@@ -1,0 +1,35 @@
+
+
+# Istoria
+# Apoptosis
+# A collaborative hodge-podge of IF hackery.
+
+
+
+-D "LANGUAGE=en_us"
+-D "MESSAGESTYLE=neu"
+
+
+
+-FC
+-Fy ""obj"
+-Fo "obj"
+
+# image file
+-o bin/istoria.t3
+
+-v
+-statprefix <@>
+-statpct
+
+-I /usr/local/share/frobtads/tads3/lib/
+
+-lib system
+
+-lib adv3/adv3
+
+
+# source files
+
+-source src/main.t
+
